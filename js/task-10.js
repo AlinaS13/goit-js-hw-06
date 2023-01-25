@@ -32,3 +32,34 @@ function createBoxes(e, amount) {
 function destroyBoxes() {
   newBoxes.innerHTML = "";
 }
+
+// const controls = document.querySelector("#controls");
+// const input = document.querySelector("input");
+// const newBoxes= document.querySelector("#boxes");
+
+// const buttonCreate = document.querySelector("button[data-create]");
+// const buttonDestroy = document.querySelector("button[data-destroy]");
+
+// function createBoxes(event) {
+//   let arrea = [];
+//   if (input.value)
+//     for (let i = 1; i <= input.value; i++) {
+//       const div = document.createElement("div");
+//       div.style.width = `${20 + 10 * i}px`;
+//       div.style.height = `${20 + 10 * i}px`;
+//       div.style.backgroundColor = getRandomHexColor();
+//       console.log(div);
+//       arrea.push(div);
+//     }
+
+//   return newBoxes.append(...arrea);
+// }
+
+// buttonCreate.addEventListener("click", createBoxes);
+
+// function deleteDiv(event) {
+//   boxes.innerHTML = "";
+//   input.value = "";
+// }
+
+// buttonDestroy.addEventListener("click", deleteDiv);

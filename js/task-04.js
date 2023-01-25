@@ -9,7 +9,6 @@ const handleClick = (event) => {
     counterValue += 1;
     couner.innerText = counterValue;
   }
-  console.log(event.target.dataset.action);
 };
 
 const removeButton = document.querySelector('[data-action="decrement"]');
